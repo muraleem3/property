@@ -1,0 +1,63 @@
+.container
+  .row
+    %form.form-vertical
+      %fieldset
+        %label{:for => ""}
+        .row
+          .col-xs-4.col-md-4
+            %select.form-control
+              %option{:value => "features"} property features
+              %option 1bhk
+              %option 2bhk
+              %option 3bhk
+              %option 2 car oarking
+              %option swiming pool
+          .col-xs-4.col-md-4
+            %select.form-control
+              %option{:value => "locality"} locality
+              %option hi-tech
+              %option tarnaka
+              %option kukatpally
+              %option kothaguda
+              %option yusfguda
+              %option nanakram guda
+              %option kphb
+              %option ameerpet
+          .col-xs-4.col-md-4
+            %select.form-control
+              %option{:value => "property type"} property type
+              %option plots/land
+              %option residentials
+              %option agriculture land
+              %option villas
+              %option form house
+          .row
+            .col-xs-4.col-md-4
+              %select.form-control
+                %option{:value => "features"} city
+                %option hyderbad
+                %option mumbai
+                %option banglore
+                %option chennai
+                %option pune
+            .row
+              .col-xs-4.col-md-4
+                %select.form-control
+                  %option{:value => "features"} min price
+                  %option 10lkh
+                  %option 20lkh
+                  %option 30lkh
+                  %option 40lkh
+                  %option 50 lkh
+              .row
+                .col-xs-4.col-md-4
+                  %select.form-control
+                    %option{:value => "features"} max price
+                    %option 1crd
+                    %option 2crd
+                    %option 3crd
+                    %option 4 crds
+                    %option 5 crds
+      %br
+        %button.btn.btn-primary.pull-right{:type => "search"}
+          Search

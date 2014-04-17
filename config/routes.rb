@@ -1,4 +1,5 @@
 Property::Application.routes.draw do
+  get "property/search1"  
   get "property/search"
   get "property/contactus"
   get "property/test"

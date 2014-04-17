@@ -9,4 +9,6 @@ def contact us
 end
 def search
 end
+def search1
+end
 end
