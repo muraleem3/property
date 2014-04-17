@@ -1,0 +1,8 @@
+.container
+  .row
+    .col-md-3
+      hi
+    .col-md-6
+      hi
+    .col-md-3
+      hi

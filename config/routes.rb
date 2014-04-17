@@ -1,4 +1,6 @@
 Property::Application.routes.draw do
+  get "property/contactus"
+  get "property/test"
   get "property/login"
   get "property/registration"
   # The priority is based upon order of creation: first created -> highest priority.

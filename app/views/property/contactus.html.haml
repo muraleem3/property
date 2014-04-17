@@ -1,0 +1,43 @@
+.container
+  .row
+    %form.form-horizontal
+      %fieldset
+        / contactus
+        / full-name input
+        .control-group
+          %label.control-label Full Name
+          .controls
+            %input#full-name.input-xlarge{:name => "full-name", :placeholder => "full name", :type => "text"}
+              %p.help-block
+        / organization input
+        .control-group
+          %label.control-label organization
+          .controls
+            %input#organization.input-xlarge{:name => "organization", :placeholder => "organization", :type => "text"}
+              %p.help-block
+        / phone no input
+        .control-group
+          %label.control-label phone no
+          .controls
+            %input.input-xlarge{:id => "phone no", :name => "phone no", :placeholder => "phone no", :type => "integer"}
+              %p.help-block it should be 10 digits
+        / city input
+        .control-group
+          %label.control-label City / Town
+          .controls
+            %input#city.input-xlarge{:name => "city", :placeholder => "city", :type => "text"}
+              %p.help-block
+        / email input
+        .control-group
+          %label.control-label email
+          .controls
+            %input#email.input-xlarge{:name => "email", :placeholder => "email", :type => "text"}
+              %p.help-block
+        / query input
+        .control-group
+          %label.control-label query
+          .controls
+            %input#query.input-xlarge{:name => "query", :placeholder => "query", :type => "text"}
+              %p.help-block
+        %button.btn.btn.btn-primary{:type => "send"}
+          send
