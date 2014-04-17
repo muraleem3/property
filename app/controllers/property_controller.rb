@@ -7,4 +7,6 @@ class PropertyController < ApplicationController
 end
 def contact us
 end
+def search
+end
 end
