@@ -1,0 +1,26 @@
+.header
+  .top-bar-one
+    .top-bar-one-left
+      = image_tag "image1.jpg", :height => '55', :width => '40', :align => 'left', :class => "img-circle img-thumbnail", :style => "margin-left:33px;"
+    .top-bar-one-middle
+   
+    .top-bar-one-right
+      LOGIN/REGISTER
+  .top-bar-two
+    .top-bar-two-left
+      = image_tag "logo1.jpg",:id =>"logo"
+    .top-bar-two-right
+      %button.btn.btn-primary.btn-cons{type: "button"} Post Your Requirement
+      %button.btn.btn-primary.btn-cons{type: "button"} List Your Property
+       
+  .search-box
+    Location
+    %select.selectpicker
+      %option Hyderabad
+      %option Chennai
+      %option Mumbai
+    Locality
+    %select.selectpicker
+      %option Kukatpally
+      %option Chennai
+      %option Mumbai    
