@@ -3,17 +3,17 @@
     %form.form-vertical
       %fieldset
         %label.radio-inline
-          %input#inlineCheckbox1{:name => "types of operation", :type => "radio", :value => "buy"}/
-          buy
+          %input#inlineCheckbox1{:name => "types of operation", :type => "radio", :value => "residential"}/
+          residential
         %label.radio-inline
-          %input#inlineCheckbox2{:name => "types of operation", :type => "radio", :value => "sell"}/
-          sell
+          %input#inlineCheckbox2{:name => "types of operation", :type => "radio", :value => "commercial"}/
+          commercial
         %label.radio-inline
           %input#inlineCheckbox2{:name => "types of operation", :type => "radio", :value => "rent/lease"}/
           rent/lease
         %label.radio-inline
-          %input#inlineCheckbox2{:name => "types of operation", :type => "radio", :value => "pg"}/
-          pg
+          %input#inlineCheckbox2{:name => "types of operation", :type => "radio", :value => "land"}/
+          land
         %label{:for => ""}
         .row
           .col-xs-2.col-md-2
@@ -35,14 +35,7 @@
               %option nanakram guda
               %option kphb
               %option ameerpet
-          .col-xs-2.col-md-2
-            %select.form-control
-              %option{:value => "property type"} property type
-              %option plots/land
-              %option residentials
-              %option agriculture land
-              %option villas
-              %option form house
+         
       %br
         .row
           .col-xs-2.col-md-2
@@ -68,9 +61,6 @@
         .col-xs-2.col-md-2.form-group
           %input#title.form-control{:placeholder => "title", :required => "", :title => "title", :to => "", :type => "title"}/
       %br
-      .checkbox.pull-left
-        %label
-          %input{:type => "checkbox"}
-            if you want register here
-        %button.btn.btn-primary.pull-center{:type => "ok"}
-          ok
+        %button.btn.btn-primary.pull-left{:type => "submit"}
+          Submit
+
