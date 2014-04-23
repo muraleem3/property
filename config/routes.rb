@@ -1,4 +1,5 @@
 Property::Application.routes.draw do
+  get "property/search_result"
   get "property/postrequirement"
   get "property/search1"  
   get "property/search"

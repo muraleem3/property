@@ -13,4 +13,6 @@ def search1
 end
 def postrequirement
 end
+def search_result
+end
 end
