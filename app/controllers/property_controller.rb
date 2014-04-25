@@ -15,4 +15,6 @@ def postrequirement
 end
 def search_result
 end
+def listurproperty
+end
 end
