@@ -19,4 +19,6 @@ def listsurproperty
 end
  def newcontact
  end
+def new
+end
 end

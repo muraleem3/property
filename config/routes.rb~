@@ -1,5 +1,6 @@
 Property::Application.routes.draw do
-  get "property/newcontact"
+
+  get "property/new"
   get "property/listurproperty"
   get "property/search_result"
   get "property/postrequirement"
