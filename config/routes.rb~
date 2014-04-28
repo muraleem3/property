@@ -1,5 +1,5 @@
 Property::Application.routes.draw do
-
+root to: 'property/search_result'
   get "property/new"
   get "property/listurproperty"
   get "property/search_result"
