@@ -1,7 +1,8 @@
 .container
   .row
-    %form.form-horizontal
-      %fieldset
+    .col-sm-4
+      %form.form-horizontal
+        %fieldset
         / contactus
         / full-name input
         .control-group
@@ -39,5 +40,40 @@
           .controls
             %input#query.input-xlarge{:name => "query", :placeholder => "query", :type => "text"}
               %p
+                .pull-right
         %button.btn.btn.btn-primary{:type => "send"}
           send
+    .col-sm-2
+      %h6 locality
+      %select.form-control
+        %option{:value => "locality"} locality
+        %option hi-tech
+        %option tarnaka
+        %option kukatpally
+        %option kothaguda
+        %option yusfguda
+        %option nanakram guda
+        %option kphb
+        %option ameerpet
+        %br
+        %br
+      .pull-right
+        %h6 Property Type
+        %select.form-control
+          %option{:value => "property type"} property type
+          %option plots/land
+          %option residentials
+          %option agriculture land
+          %option villas
+          %option form house
+        
+       
+    .col-sm-2
+      %h6 Location
+      %select.form-control
+        %option{:value => "features"} city
+        %option hyderbad
+        %option mumbai
+        %option banglore
+        %option chennai
+        %option pune

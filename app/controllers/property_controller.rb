@@ -15,6 +15,8 @@ def postrequirement
 end
 def search_result
 end
-def listurproperty
+def listsurproperty
 end
+ def newcontact
+ end
 end

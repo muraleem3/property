@@ -15,6 +15,8 @@
           %input#inlineCheckbox2{:name => "types of operation", :type => "radio", :value => "pg"}/
           pg
         %label{:for => ""}
+          %br
+          %br
         .row
           .col-xs-2.col-md-2
             %select.form-control
@@ -54,22 +56,17 @@
       %br
         .row
           .col-xs-2.col-md-2.form-group
-            %input#price.form-control{:autofocus => "", :name => "min price", :placeholder => "price", :price => "min price", :required => "", :type => "price"}/
+            %input#price.form-control{:autofocus => "", :name => "min price", :placeholder => "price", :price => "min price", :required => "", :type => "price"}min price
           .col-xs-2.col-md-2.form-group
-            %input#price.form-control{:name => "max price", :placeholder => "price", :price => "max price", :required => "", :to => "", :type => "price"}/
+            %input#price.form-control{:name => "max price", :placeholder => "price", :price => "max price", :required => "", :to => "", :type => "price"}max price
       %br
-        .col-xs-2.col-md-2
-          %select.form-control
-            %option{:value => "transaction type"} transaction type
-            %option resell
-            %option new
-            %option both
+        
       %br
         .col-xs-2.col-md-2.form-group
-          %input#title.form-control{:placeholder => "title", :required => "", :title => "title", :to => "", :type => "title"}/
+          %input#title.form-control{:placeholder => "title", :required => "", :title => "title", :to => "", :type => "title"}title
       %br
       .col-xs-2.col-md-2.form-group
-        %input#image.form-control{:placeholder => "image", :required => "", :title => "image", :to => "", :type => "text"}/
+        %input#image.form-control{:placeholder => "image", :required => "", :title => "image", :to => "", :type => "text"}image
         
         %br
         %button.btn.btn-primary.pull-center{:type => "browse"}
