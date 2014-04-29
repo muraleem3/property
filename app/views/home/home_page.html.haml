@@ -1,66 +1,72 @@
 .row
   .col-sm-6
+    /%h4{align: "center"}   RESIDENTIAL 
+    .body-image1
+      /%h4{align: "center"} RESIDENTIAL
+      =image_tag "11.jpg",:id =>"property-logo"
     .body-image
+      %h4{align: "left"}
+        %font{color: "orange"} RESIDENTIAL      
+      = link_to "Independent House", property_results_home_index_path, :class => 'customlabel'
       %br
+      = link_to "Apartment", property_results_home_index_path, :class => 'customlabel'     
       %br
-      = image_tag "1.jpg",:id =>"body-image"
-      = image_tag "2.jpg",:id =>"logo"
-      = image_tag "6.jpg",:id =>"logo"
-    .body-navigation
-      %h4 RESIDENTIAL
+      = link_to "Independent Villa", property_results_home_index_path, :class => 'customlabel'
       %br
-      %button.btn.btn-primary.btn-cons{type: "button"} Buy Indipendent House
-      %br Buy Indipendent House
-      %br Buy Indipendent villa
-      %br Buy Apartment
-      %br Buy Apartment
-      %br Buy Indipendent House 
-      
+      = link_to "Flat", property_results_home_index_path, :class => 'customlabel'
+      %br    
+      = link_to "Farm House", property_results_home_index_path, :class => 'customlabel'
+      %br
+      = link_to "Other Residential", property_results_home_index_path, :class => 'customlabel'
   .col-sm-6
+    .body-image1
+      =image_tag "23.jpg",:id =>"property-logo"     
     .body-image
-      %br
-      %br
-      = image_tag "4.jpg",:id =>"body-image" 
-      = image_tag "15.jpg",:id =>"logo"
-      = image_tag "16.jpg",:id =>"logo"
-    .body-navigation
-      %h4 COMMERCIAL
-      %br Buy Commercial Building
-      %br Buy Retails Show Room/Shop
-      %br Office Complex
-      %br WareHouse
-      %br Industrial Estate
-      %br SEZ
-      
-.row
+      %h4{align: "left"}
+        %font{color: "orange"} COMMERCIAL
+      = link_to "Commercial Space", property_results_home_index_path, :class => 'customlabel'
+      %br       
+      = link_to "Office Space", property_results_home_index_path, :class => 'customlabel'
+      %br         
+      = link_to "IT/Software Technology Park", property_results_home_index_path, :class => 'customlabel'
+      %br       
+      = link_to "Industrial Space", property_results_home_index_path, :class => 'customlabel'
+      %br       
+      = link_to "Warehouse", property_results_home_index_path, :class => 'customlabel'
+      %br      
+      = link_to "Hotel/Resort", property_results_home_index_path, :class => 'customlabel'
+.row      
   .col-sm-6
+    .body-image1
+      =image_tag "36.jpg",:id =>"property-logo"   
     .body-image
+      %h4{align: "left"}
+        %font{color: "orange"} LAND
+      = link_to "Residential Land", property_results_home_index_path, :class => 'customlabel'
+      %br       
+      = link_to "Commercial Land", property_results_home_index_path, :class => 'customlabel'
+      %br        
+      = link_to "Industrial Land", property_results_home_index_path, :class => 'customlabel'
       %br
-      %br
-      = image_tag "2.jpg",:id =>"body-image" 
-      = image_tag "5.jpg",:id =>"logo"
-      = image_tag "3.jpg",:id =>"logo"
-    .body-navigation
-      %h4 LAND
-      %br
-      %br Residential Land
-      %br Commercial Land
-      %br Industrial Land
-      %br Agricultural Land
-      %br form House Land 
+      = link_to "Agricultural Land", property_results_home_index_path, :class => 'customlabel'
+      %br       
+      = link_to "Farm House Land", property_results_home_index_path, :class => 'customlabel'
+      %br       
+      = link_to "Land", property_results_home_index_path, :class => 'customlabel' 
   .col-sm-6
+    .body-image1
+      =image_tag "46.jpg",:id =>"property-logo"   
     .body-image
+      %h4{align: "left"}
+        %font{color: "orange" } RENT/PG
+      = link_to "Apartments/Flats", property_results_home_index_path, :class => 'customlabel'
+      %br       
+      = link_to "Individual Houses", property_results_home_index_path, :class => 'customlabel'
+      %br          
+      = link_to "Villas", property_results_home_index_path, :class => 'customlabel'
+      %br        
+      = link_to "Serviced Apartments", property_results_home_index_path, :class => 'customlabel'
       %br
+      = link_to "Office Space", property_results_home_index_path, :class => 'customlabel'
       %br
-      = image_tag "42.jpg",:id =>"body-image" 
-      = image_tag "45.jpg",:id =>"logo"
-      = image_tag "48.jpg",:id =>"logo"
-    .body-navigation
-      %h4 RENT/PG
-      %br
-      %br Apartments/Flats
-      %br Individual Houses
-      %br Serviced Apartments
-      %br Office Space
-      %br Rent your Property
-      
+      = link_to "Industrial space", property_results_home_index_path, :class => 'customlabel'

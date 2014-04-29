@@ -2,7 +2,20 @@ Property::Application.routes.draw do
 
   root to: "home#home_page"
 
-  resources :home
+
+  resources :home do
+    collection do
+      get "contact_us"
+      get "property_results"
+      get "search_results"
+      get "login"
+      get "registration"
+      get "postrequirement"
+      get "listproperty"
+
+    end
+  end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
