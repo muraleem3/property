@@ -14,12 +14,18 @@
           land
           
         %label.radio-inline
-          %input#inlineCheckbox4{:name => "types of operation", :type => "radio", :value => "pg"}/
-          pg
+          %input#inlineCheckbox4{:name => "types of operation", :type => "radio", :value => "pg/rent"}/
+          pg/rent
           %br
          
         %label{:for => ""}
         .row
+          .col-xs-2.col-md-2
+            %select.form-control
+              %option{:value => "property type"} property type
+              %option plots
+              %option apartments
+              %option independent houses
           .col-xs-2.col-md-2
             %select.form-control
               %option{:value => "features"} property features
@@ -69,21 +75,22 @@
             %option new
             %option both
             %br
-            .col-xs-2.col-md-2
-          %select.form-control
-            %option{:value => "city"} city
-            %option mumbai
-            %option chennai
-            %option hyderabad
+           
       %br
         .col-xs-2.col-md-2.form-group
-          %input#title.form-control{:placeholder => "title", :required => "required", :title => "title", :type => "title"}title
           %input#image.form-control{:placeholder => "image", :required => "required", :title => "image", :type => "title"}image
           %br
           %button.btn.btn-primary.pull-right{:type => "browse"}
             browse
+          %br
+          %input#image.form-control{:placeholder => "title", :required => "required", :title => "title", :type => "title"}title
+          %br
+         
           %label{:for => "name"}
             description
             %textarea#description.form-control{:cols => "25", :name => "description", :placeholder => "description", :required => "required", :rows => "6"}
           %button.btn.btn-primary.pull-right{:type => "list"}
-            list 
+            list              
+            
+          
+           
